@@ -2,7 +2,7 @@
 // @ts-nocheck
 
 	import { Button } from "flowbite-svelte";
-    import { FileCirclePlusSolid, FolderSolid } from "flowbite-svelte-icons";
+    import { FileCirclePlusSolid, FolderSolid, GithubSolid } from "flowbite-svelte-icons";
     import fileDialog from "file-dialog";
     import { HyprWireProtocol, protocol, selectedElement } from "$lib";
 
@@ -65,6 +65,9 @@
         <small class="text-sm opacity-50 select-text">{__VERSION__}</small>
     </h1>
 	<div class="flex gap-5 items-center">
+        <a class="mr-5 hover:opacity-65 transition-all" target="_blank" href="https://github.com/relativemodder/hyprwire-protocol-editor">
+            <GithubSolid class="shrink-0 h-6 w-6" />
+        </a>
 		<Button color="blue" onclick={onNew}>
             <FileCirclePlusSolid class="shrink-0 h-4 w-4 me-2" />
             New protocol
