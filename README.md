@@ -2,6 +2,9 @@
 
 Simplifies the editing of [these protocols](https://github.com/hyprwm/hyprwire-protocols), makes it more visual and obvious. At least I hope it does so.
 
+
+[Try it out](https://relativemodder.github.io/hyprwire-protocol-editor/)
+
 <img src="assets/ui_screenshot.png">
 
 ## Developing
